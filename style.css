@@ -1,0 +1,165 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;            
+}
+
+/*NAVBAR*/
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 70px;
+    background-color: rgb(7,32,88);
+}
+
+.nav{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav li a{
+    transition: all .3s ease 0s;
+    color: rgb(218, 208, 208);
+}
+button{
+    height: 37px;
+    width: 119px;
+}
+
+/* NAVBAR ENDING*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 364px;
+    margin: 22px -5px 21px 12px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .Book{
+  	margin-top: 20px;
+  	margin-bottom: -20px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+ /*End of Home Page*/
+
+  table, th, td {
+  border-less: 1px solid black;
+}
+th, td {
+  padding: 10px;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+width: 100%;
+}
+
+
+
+/*Star Rating
+*/
+
+/*body {
+  font-family: Arial;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 600px;
+  padding: 50px;
+}*/
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 95%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 40%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 5%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 3%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 1%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
